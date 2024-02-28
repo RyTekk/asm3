@@ -1,0 +1,44 @@
+.popup {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+  font-style: italic;
+}
+
+.image {
+  width: 55%;
+}
+
+.popup .image img {
+  width: 400px;
+}
+
+.info .name,
+.info .price,
+.info .description {
+  margin-left: 10px;
+}
+
+.info {
+  width: 45%;
+}
+
+.info .name {
+  font-weight: 600;
+}
+
+.info .description {
+  color: silver;
+}
+
+.info * {
+  margin: 10px 0;
+}
+
+.info button {
+  background-color: black;
+  color: white;
+  border-style: none;
+  width: 130px;
+  height: 40px;
+}

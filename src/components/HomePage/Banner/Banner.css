@@ -1,0 +1,33 @@
+.banner-img img {
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  margin-top: 20px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0, -50%);
+  width: 230px;
+  font-style: italic;
+}
+
+.banner-text-1 {
+}
+
+.banner-text-2 {
+  font-size: 28px;
+}
+
+.banner-text button {
+  color: white;
+  border-style: none;
+  background-color: black;
+  width: 170px;
+  height: 35px;
+  font-style: italic;
+}

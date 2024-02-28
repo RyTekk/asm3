@@ -1,0 +1,86 @@
+.checkout {
+  font-style: italic;
+}
+
+.checkout-head {
+  display: flex;
+  background-color: #f8f9fa;
+  padding: 60px 40px;
+  justify-content: space-between;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+
+.checkout-head .head-1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.checkout-head .head-2 {
+  color: silver;
+  display: flex;
+  align-items: center;
+}
+
+.checkout-text {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.checkout-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-content form {
+  width: 65%;
+  color: silver;
+}
+
+.checkout-content form input {
+  width: 100%;
+  margin: 15px 0;
+  padding: 5px 15px;
+  height: 45px;
+  box-sizing: border-box;
+}
+
+.checkout-content form button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px 30px;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.your-order {
+  width: 24%;
+  background-color: #f8f9fa;
+  padding: 40px;
+  height: fit-content;
+}
+
+.your-order .yo-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.other-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-width: 1px;
+  padding: 10px 0;
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+.other-item .oi-quantity {
+  color: silver;
+}
+
+.your-order .yo-total {
+  display: flex;
+  justify-content: space-between;
+}

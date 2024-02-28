@@ -1,0 +1,18 @@
+.navbar,
+.navbar-left,
+.navbar-right {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.navbar {
+  width: 68%;
+  margin: 20px auto;
+}
+
+.navbar-left,
+.navbar-right {
+  gap: 20px;
+}

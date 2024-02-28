@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+  font-style: italic;
+  margin-top: 50px;
+}
+
+.footer-head {
+  margin-bottom: 20px;
+}
+
+.footer-child {
+  margin-left: 3px;
+  color: gray;
+}
+
+.footer-child p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: gray;
+  text-decoration: none;
+}

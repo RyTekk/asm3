@@ -1,0 +1,41 @@
+.register {
+  background-image: url("/src/components/HomePage/Banner/banner1.jpg");
+  background-position: center;
+  height: 750px;
+  position: relative;
+}
+
+.register p.title,
+.register p.signin {
+  font-style: italic;
+}
+
+.register p.signin {
+  margin-bottom: 50px;
+  color: silver;
+}
+
+.register p.title {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register input,
+.register button {
+  width: 60%;
+  height: 50px;
+  box-sizing: border-box;
+  margin: 5px auto;
+}
+
+.register button {
+  margin: 20px auto;
+  background-color: #383838;
+  color: white;
+  border: none;
+}

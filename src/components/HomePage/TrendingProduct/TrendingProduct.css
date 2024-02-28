@@ -1,0 +1,44 @@
+.tp-text {
+  font-style: italic;
+  margin: 20px 0;
+}
+
+.tp-text .text-1 {
+  color: silver;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.tp-text .text-2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.tp-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.tp-img {
+  width: 100%;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.tp-img:hover {
+  opacity: 0.5;
+}
+
+.tp-info {
+  text-align: center;
+  font-style: italic;
+}
+
+.tp-info .tp-name {
+  font-weight: 550;
+}
+
+.tp-info .tp-price {
+  color: silver;
+}
