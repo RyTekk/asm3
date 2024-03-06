@@ -23,6 +23,11 @@ function App() {
         {
           path: "/shop",
           element: <Shop />,
+          children: [
+            {
+              path: ":category",
+            },
+          ],
           loader: productLoader,
         },
         {

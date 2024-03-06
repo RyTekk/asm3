@@ -1,9 +1,8 @@
-import { useLoaderData, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { numberWithDots } from "hooks/use-fetchproduct";
 
-function ProductList() {
+function ProductList({ product }) {
   const navigate = useNavigate();
-  const product = useLoaderData();
 
   return (
     <div className="product-list">

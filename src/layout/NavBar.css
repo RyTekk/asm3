@@ -12,6 +12,10 @@
   margin: 20px auto;
 }
 
+.navbar a.active {
+  color: darkorange;
+}
+
 .navbar-left,
 .navbar-right {
   gap: 20px;

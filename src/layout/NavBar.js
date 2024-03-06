@@ -1,32 +1,47 @@
-import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import { useDispatch, useSelector } from "react-redux";
 import { loginAction } from "store/loginReducer";
 
 function NavBar() {
-  const navigate = useNavigate();
   const isLogin = useSelector((state) => state.login);
   const dispatch = useDispatch();
 
   return (
     <div className="navbar">
       <div className="navbar-left">
-        <div className="navbar-home" onClick={() => navigate("/")}>
+        <NavLink
+          to="/"
+          end
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
           Home
-        </div>
-        <div className="navbar-shop" onClick={() => navigate("shop")}>
+        </NavLink>
+        <NavLink
+          to="shop"
+          end
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
           Shop
-        </div>
+        </NavLink>
       </div>
       <div className="navbar-mid">BOUTIQUE</div>
       <div className="navbar-right">
-        <div className="navbar-cart" onClick={() => navigate("cart")}>
+        <NavLink
+          to="cart"
+          end
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
           Cart
-        </div>
+        </NavLink>
         {isLogin.isLogin === 0 ? (
-          <div className="navbar-login" onClick={() => navigate("login")}>
+          <NavLink
+            to="login"
+            end
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
             Login
-          </div>
+          </NavLink>
         ) : (
           <div
             className="navbar-login"
